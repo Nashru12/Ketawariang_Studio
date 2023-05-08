@@ -1,0 +1,457 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h3,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+}
+
+.nav {
+    overflow: hidden;
+    background-color:#9EAEFF;
+}
+
+.nav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav img {
+    float: left;
+    max-width: 40px;
+    height: 50%;
+    display: block;
+    padding: 12px 20px;
+    margin: auto;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 650px;
+    position: relative;
+    margin: auto;
+    margin-top: 40px;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+
+    .prev,
+    .next,
+    .text {
+        font-size: 11px
+    }
+}
+
+.morebutton button {
+    background-color: #94B49F;
+    border: none;
+    color: black;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 610px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+
+/*index page end*/
+
+footer {
+    text-align: center;
+    padding: 1px;
+    background-color: #ECB390;
+    color: black;
+}
+
+.information {
+    text-align: center;
+    margin: 25px;
+}
+
+.pakej {
+    display: flex;
+    margin-top: 50px;
+}
+
+.rows1 {
+    flex: 33.33%;
+    padding: 5px;
+    width: 90%;
+}
+
+.rows1 img {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.rows1 h3 {
+    text-align: center;
+    padding: 25px;
+    font-size: 18px;
+}
+
+.rows2 {
+    flex: 33.33%;
+    padding: 5px;
+    width: 100%;
+}
+
+.rows2 img {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.rows2 h3 {
+    text-align: center;
+    padding: 25px;
+    font-size: 18px;
+}
+
+.rows3 {
+    flex: 33.33%;
+    padding: 5px;
+    width: 100%;
+}
+
+.rows3 img {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.rows3 h3 {
+    text-align: center;
+    padding: 25px;
+    font-size: 18px;
+}
+
+.rows4 {
+    flex: 33.33%;
+    padding: 5px;
+    width: 100%;
+}
+
+.rows4 img {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: auto;
+
+}
+
+.rows4 h3 {
+    text-align: center;
+    padding: 25px;
+    font-size: 18px;
+    margin-right: -40%;
+}
+
+#topic1,
+#topic2 {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+/*booking form start*/
+.bookingform {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.booking {
+    padding: 10px;
+    border: solid thin rgb(182, 182, 182);
+    border-radius: 10px;
+    margin: auto;
+    width: 550px;
+    background-color: #FAF3DA;
+}
+
+.formname {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=date] {
+
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-bottom: 5%;
+    font-weight: bold;
+    display: inline-block;
+    border: 2px solid #EDE4BF;
+    background-color: #EDE4BF;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 20%;
+    background-color: #94B49F;
+    color: black;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 227px;
+    margin-right: 227px;
+}
+
+input[type=submit]:hover {
+    background-color: #94B49F;
+}
+
+/*booking form end*/
+
+/*profile page start*/
+.outbox {
+    height: 450px;
+    width: 1000px;
+    left: 103px;
+    top: 203px;
+    border: 1px solid black;
+    margin: auto;
+    background-color: #FAF3DA99;
+    margin-top: 45px;
+}
+
+.inbox {
+    height: 250px;
+    width: 800px;
+    left: 103px;
+    top: 203px;
+    border: 1px solid black;
+    margin: auto;
+    background-color: #EDE4BF;
+    margin-top: 45px;
+}
+
+.maklumat {
+    font-size: 20px;
+    padding: 20px;
+}

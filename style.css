@@ -1,0 +1,224 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h3,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #F8F4EA;
+}
+
+.logo{
+    margin-left: 40px;
+    margin-top: 23px;
+    margin-bottom: 4px;
+    width: 60px;
+    cursor: pointer;
+}
+
+/* 
+.top img {
+    display: flex;
+    justify-content: left;
+    max-width: 70px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 15px;
+} */
+/* 
+.top h1 {
+    text-align: center;
+} */
+
+
+.formlogin, .formsignup {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.form {
+    padding: 10px;
+    border: solid thin rgb(235, 235, 235);
+    border-radius: 10px;
+    margin: auto;
+    width: 550px;
+    background-color: #579BB1;
+}
+
+.formname {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+input[type=text],input[type=email], input[type=password]{
+
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-bottom: 5%;
+    font-weight: bold;
+    display: inline-block;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 20%;
+    background-color: #E1D7C6;
+    color: black;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 227px;
+    margin-right: 227px;
+}
+button:hover{
+   background-color: #E1D7C6;
+}
+
+.signup{
+    padding: 10px;
+    border: solid thin rgb(255, 255, 255); 
+    border-radius: 10px;
+    margin:auto;
+    width: 650px; 
+    background-color: #579BB1;
+}
+
+.create{
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+/*sign up & login form end*/
+
+/*index page start*/
+

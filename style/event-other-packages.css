@@ -1,0 +1,233 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h3,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+}
+
+.nav {
+    overflow: hidden;
+    background-color:#9EAEFF;
+}
+
+.nav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav img {
+    float: left;
+    max-width: 40px;
+    height: 50%;
+    display: block;
+    padding: 12px 20px;
+    margin: auto;
+}
+
+.rect {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .kotak {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 600px;
+    height: 300px;
+    margin: 20px;
+    padding:20px;
+    border-radius: 10px;
+    background-color: #E8F1FF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .kotak img {
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 10px 4px 4px 10px;
+  }
+  
+  .content {
+    padding: 35px;
+  }
+  
+  .content h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .content ul {
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+    font-size: 16px;
+  }
+  
+  .content ul li {
+    margin-bottom: 5px;
+  }
+
+  .butang {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .butang a {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #9EAEFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration:none;
+  }
+  
+  .butang a:hover {
+    background-color: #7F8AD2;
+  }
+
+  .foot1{
+    background-color: #9EAEFF;
+    margin-top: 50px;
+    padding:2px;
+    text-align: center;
+    color: black;
+}

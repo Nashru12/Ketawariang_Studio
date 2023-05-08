@@ -1,0 +1,486 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h3,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+}
+
+.nav {
+    overflow: hidden;
+    background-color:#9EAEFF;
+}
+
+.nav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav img {
+    float: left;
+    max-width: 40px;
+    height: 50%;
+    display: block;
+    padding: 12px 20px;
+    margin: auto;
+}
+
+.rectangle{
+    background-color: #EAF2FF;
+    position: absolute;
+    width : 1100px;
+    height: 480px;
+    left: 85px;
+    top:120px;
+    border-radius:60px;
+}
+
+.inside{
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: #9EAEFF;
+  border-radius: 20px; */
+  padding: 65px;
+}
+
+.left-side{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.left-side h2{
+    margin:5px;
+    font-size:30px;
+    text-align:center;
+}
+
+.left-side p{
+    margin:auto;
+    margin-top:45px;
+    font-size:20px;
+    text-align:center;
+}
+
+.left-side a{
+    text-decoration:none;
+    font-weight: 900;
+}
+
+.left-side button{
+    background-color:#9EAEFF;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left:250px;
+    margin-top:50px;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+
+.right-side{
+    width: 400px;
+    height: 340px;
+    border-radius: 34px;
+    overflow: hidden;
+}
+
+.right-side img{
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/*index page end*/
+
+/*packages start*/
+
+.block {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box {
+    width: 250px;
+    height: 410px;
+    margin: 0 20px;
+    background-color: #E9F1FF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .box img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .box h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .box p {
+    font-size: 1.1rem;
+    margin-bottom: 45px;
+  }
+  
+  .box a {
+    padding: 10px 20px;
+    background-color: #9eaeff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration:none;
+  }
+
+/*footer start*/
+.foot {
+    background-color: #9EAEFF;
+    padding: 8px;
+    text-align: center;
+    margin-top:600px;
+}
+
+.foot1{
+    background-color: #9EAEFF;
+    margin-top: 50px;
+    padding:2px;
+    text-align: center;
+    color: black;
+}
+
+/*footer end*/
+
+.rect {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .kotak {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 500px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #E8F1FF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .kotak img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 4px 4px 10px;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .content h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+  }
+  
+  .content ul li {
+    margin-bottom: 5px;
+  }
+
+  .butang {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .butang a {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #9EAEFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration:none;
+  }
+  
+  .butang a:hover {
+    background-color: #7F8AD2;
+  }
+
+  
+
+  
+
+  /* .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .button-container a {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .button-container a:hover {
+    background-color: #FF69B4;
+  } */
+  
+/*wedding-packages end*/
+  
+
+/*booking form start*/
+
+
+.bookingform {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.booking {
+    padding: 10px;
+    border: solid thin rgb(182, 182, 182);
+    border-radius: 10px;
+    margin: auto;
+    width: 550px;
+    background-color: #A7C1F5;
+}
+
+.formname {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=date] {
+
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-bottom: 5%;
+    font-weight: bold;
+    display: inline-block;
+    border: 2px solid #A7C1F5;
+    background-color: white;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 20%;
+    background-color:#1F468E;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 227px;
+    margin-right: 227px;
+}
+
+/* input[type=submit]:hover {
+    background-color: #ADBCDA;
+} */
+
+/*booking form end*/
+
+/*profile page start*/
+.outbox {
+    height: 450px;
+    width: 1000px;
+    left: 103px;
+    top: 203px;
+    border: 1px solid black;
+    margin: auto;
+    /* background-color: #FAF3DA99; */
+    margin-top: 45px;
+}
+
+.inbox {
+    height: 250px;
+    width: 800px;
+    left: 103px;
+    top: 203px;
+    border: 1px solid black;
+    margin: auto;
+    background-color: #EDE4BF;
+    margin-top: 45px;
+}
+
+.maklumat {
+    font-size: 20px;
+    padding: 20px;
+}
+
